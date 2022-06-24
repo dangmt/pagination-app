@@ -36,7 +36,7 @@ function App() {
             return {
               fullname:
                 rs.name.title + " " + rs.name.first + " " + rs.name.last,
-              username: rs.name.first + " " + rs.name.last,
+              username: rs.login.username,
             };
           })
         );
